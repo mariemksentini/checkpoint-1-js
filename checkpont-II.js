@@ -106,7 +106,7 @@ var num = 5
 function facto(num) {
   var num2 = 1
   for (var i = 1; i < num + 1; i++) {
-    num2 = num2 * i
+    num2 *= i
     // console.log(num2)
   }
   return num2
