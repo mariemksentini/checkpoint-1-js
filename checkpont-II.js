@@ -146,3 +146,12 @@ if (a) {
 
 
 // Fibonacci Sequence: Implement a function to generate the Fibonacci sequence up to a given number of terms. (search on the net )
+var numb = 15
+function Fibonacci_Sequence (numb) {
+    var seq= [0,1]
+    for (var i=2 ; i <numb ; i++){
+        seq.push(seq[i-1]+seq[i-2])
+    }
+    return seq
+}
+console.log(Fibonacci_Sequence (numb))
